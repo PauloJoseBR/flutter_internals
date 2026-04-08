@@ -28,18 +28,18 @@ class _UIUpdatesDemo extends State<UIUpdatesDemo> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            const Text(
+          children: const [
+            Text(
               'Every Flutter developer should have a basic understanding of Flutter\'s internals!',
               textAlign: TextAlign.center,
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
-            const SizedBox(height: 16),
-            const Text(
+            SizedBox(height: 16),
+            Text(
               'Do you understand how Flutter updates UIs?',
               textAlign: TextAlign.center,
             ),
-            const SizedBox(height: 24),
+            SizedBox(height: 24),
             DemoButtons(),
           ],
         ),
